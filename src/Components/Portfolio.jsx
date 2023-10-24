@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/mountains-8314422_1280.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "mountains with lake";
 
 /**
  * Project list
@@ -31,29 +31,23 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "3D Custom Tshirt Designer",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Created using ReactJS, ThreeJS and Tailwind CSS it allows users to customize their tshirt.",
+    url: "https://github.com/accodes21/tshirt3d",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Movie-Mania",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Created using ReactJS and Material UI it has all the trending movies and series to browse.",
+    url: "https://github.com/accodes21/Movie-Mania",
   },
   {
-    title: "My Resume Site",
+    title: "My Portfolio Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+      "Created using NextJS and Tailwind CSS, deployed on Vercel.",
+    url: "https://aaryachopkar.vercel.app",
+  }
 ];
 
 const Portfolio = () => {
